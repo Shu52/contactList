@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" id = "form1" autocomplete="on">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your first name.." autocomplete='given-name'>
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." autocomplete='family-name'>
+
+          <label for="address">Address</label>
+          <input type="text" id="address" name="address" placeholder="Your address.." autocomplete='address-line1'>
+      
+          <label for="phoneNumber">Phone Number</label>
+          <input type="number" id="pNumber" name="phoneNumber" placeholder="Your phone number.." autocomplete='tel-national'>
+        </form>
+        <button type="submit" form="form1" value="Submit">Submit</button>
+      </div>
+    <div class = "div-contactList">
+
+    </div>
+    <script src="bundle.js"></script>
+</body>
+</html>
+<!-- Build four components:
+
+A ContactCollection component that loads existing contacts from storage, and saves new ones. Each new contact should have an auto-generated identifier.
+A Contact component that displays a person's name, phone number, and address.
+A ContactList component that displays all contacts. It should import the Contact component and the ContactCollection component.
+A ContactForm component that, when filled out and a submit button is pressed, adds a new contact to storage. It should import the ContactCollection component.
+In main.js, import the ContactList component and the ContactForm component.
+
+The user should see the contact form at the top of the view, and the list of contacts underneath it. -->
+
+<!-- array of objects for contacts -->

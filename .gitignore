@@ -1,0 +1,10 @@
+.DB_Store
+/dist
+/node_modules
+package-lock.json
+*.pyc
+bin
+.vscode
+.vs
+node_modules
+*/node_modules
