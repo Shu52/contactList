@@ -1,7 +1,7 @@
 const databaseMethods = Object.create({},{
     saveDatabase:{
         value: function (databaseObject, localStorageKey){
-        const stringifiedDatabase = JSON.stringify(databaseObject)    
+        const stringifiedDatabase = JSON.stringify(databaseObject)
         localStorage.setItem(localStorageKey, stringifiedDatabase)
 }},
     loadDatabase:{
